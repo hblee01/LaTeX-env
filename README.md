@@ -15,7 +15,8 @@
 3. vscode 내에서 Dev Containers 확장을 설치한다.  
     `Ctrl + shift + X` 를 누르고 검색창에 Dev Containers를 검색하면 나온다.
 4. 이 레포지토리를 `git clone`한다.
-5. clone한 레포지토리를 vscode에서 연다. (`$ code .`)
+5. clone한 레포지토리를 vscode에서 연다.
+    * 여기서 바로 `$ code .`을 사용하면 "docker 접속 + .devcontainer(vscode extension 설치)"를 수행한다.
 6. `Ctrl + shift + P` 를 누르고 `Rebuild and Reopen in Container` 검색 후 `Enter`
 7. .tex 파일과 .bib 파일을 만들고 사용하면 된다. 컴파일 결과는 `out` 디렉토리에 생성된다.
 
